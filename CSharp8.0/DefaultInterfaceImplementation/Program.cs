@@ -22,24 +22,5 @@ namespace DefaultInterfaceImplementation
             //Console.Read();
             #endregion
         }
-
-
-        #region UsingStatement
-        static void CreateTextFileClassicApproach()
-        {
-            using (var file = new System.IO.StreamWriter("Sample.txt"))
-            {
-                file.WriteLine("Hello world");
-            }// file object is disposed of here
-        }
-
-        static void CreateTextFileModernApproach()
-        {
-            using var file2 = new System.IO.StreamWriter("Sample.txt");
-            file2.WriteLine("Hello world");
-            // file2 object is disposed of here
-        }
-        #endregion UsingStatement
-
     }
 }
