@@ -3,6 +3,15 @@
 using System;
 using System.Reflection;
 
+
+
+/// <summary>
+/// This Example has below listed features in it
+/// 1. Nullable Reference Types
+/// 2. Null-Coalescing Assignment Operator
+/// 3. Null Forgiving Operator
+/// 4. Nullable Enable
+/// </summary>
 namespace NonNullableReferenceTypes
 {
     class Program
@@ -74,8 +83,12 @@ namespace NonNullableReferenceTypes
             var message2 = MessagePopulator.Populate(message);
             Console.WriteLine(message.Text);
             Console.WriteLine(message.From);
-            var length = message2.From.Length;
-            //Console.WriteLine(message.From.Length);
+            
+            //Uncomment both and see the difference
+            var length1 = message2.From.Length; //Without forgiving operator gives warning
+            //var length2 = message2.From!.Length; //With forgiving operator doesn't give warning
+            
+            //Console.WriteLine(message.From.Length);            
             Console.WriteLine(message.ToUpperFrom);
             Console.WriteLine("Press enter to end");
             Console.Read();
