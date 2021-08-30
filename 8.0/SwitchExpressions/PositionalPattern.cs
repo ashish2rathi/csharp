@@ -1,0 +1,6 @@
+﻿namespace SwitchExpressions
+{
+    class PositionalPattern
+    {
+    }
+}
