@@ -48,7 +48,7 @@
  1. Records
  2. Init Only Setters
  3. [Top-Level Statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/top-level-statements)
- 4. Pattern Matching
+ 4. [Pattern Matching](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/patterns3)
  5. Module Initializers
  6. Partial Methods
 
