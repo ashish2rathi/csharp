@@ -51,5 +51,6 @@
  4. [Pattern Matching](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/patterns3)
  5. Module Initializers
  6. [Extending Partial Methods](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/extending-partial-methods)
+ 7. [Fit and Finish](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#fit-and-finish-features)
 
 ---
