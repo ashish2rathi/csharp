@@ -54,3 +54,24 @@
  7. [Fit and Finish](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#fit-and-finish-features)
 
 ---
+
+# CSharp 10.0
+
+## _References_
+- [Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
+- [C# 10 Features C-SharpCorner](https://www.c-sharpcorner.com/blogs/c-sharp-10-features)
+
+ 
+## _Prerequisite_
+- C# 10 features comes with .NET 6 SDK installation
+- C# 10 is supported only on .NET 6, and is automatically selected as default version in .NET 6 projects
+- .NET 6.0 features comes with Visual Studio 2022, and its not supported in other lower versions of visual studio
+
+
+ ## _Implemented Features_
+ 1. [Global Usings](https://www.c-sharpcorner.com/blogs/c-sharp-10-features)
+ 2. [File Scoped Namespaces](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/file-scoped-namespaces)
+ 3. [Constant Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/constant_interpolated_strings)
+ 4. [Extended Property Patterns](https://anthonygiretti.com/2021/07/27/introducing-c-10extended-property-patterns/)
+ 
+ ---
