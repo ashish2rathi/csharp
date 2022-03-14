@@ -72,6 +72,6 @@
  1. [Global Usings](https://www.c-sharpcorner.com/blogs/c-sharp-10-features)
  2. [File Scoped Namespaces](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/file-scoped-namespaces)
  3. [Constant Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/constant_interpolated_strings)
- 4. [Extended Property Patterns]()
+ 4. [Extended Property Patterns](https://anthonygiretti.com/2021/07/27/introducing-c-10extended-property-patterns/)
  
  ---
